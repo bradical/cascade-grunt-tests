@@ -9,6 +9,8 @@ module.exports = function(grunt) {
           site: 'bradley'
         },
         files: [
+          {src: ['js/*'], site: '', dest: 'resources/js', type: 'file', rewriteLinks: true, maintainAbsoluteLinks: true},
+          {src: ['css/*'], site: '', dest: 'resources/css', type: 'file', rewriteLinks: true, maintainAbsoluteLinks: true}
         ]
       }
     }
