@@ -1,0 +1,8 @@
+{
+  "name": "cascade-grunt-tests",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cascade-deploy": "~0.2.3"
+  }
+}
